@@ -1,0 +1,33 @@
+.movie-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.movie-item {
+  width: 200px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.movie-poster {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.movie-info {
+  margin-top: 8px;
+}
+
+.movie-info h3 {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.movie-info p {
+  font-size: 0.9em;
+  color: #555;
+}
